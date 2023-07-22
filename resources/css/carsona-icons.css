@@ -1,0 +1,15 @@
+.icon-engine::before{
+    content: url('../../public/images/icons/car-specs/engine.png');
+}
+
+.icon-drive-type::before{
+    content: url('../../public/images/icons/car-specs/drive-type.png');
+}
+
+.icon-body-type::before{
+    content: url('../../public/images/icons/car-specs/body-type.png');
+}
+
+.icon-fuel-efficiency::before{
+    content: url('../../public/images/icons/car-specs/fuel-efficieny.png');
+}

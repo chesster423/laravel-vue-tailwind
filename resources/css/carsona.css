@@ -1,0 +1,282 @@
+.carsona-nav {
+  z-index: 1;
+  background-color: none !important;
+}
+
+.carsona-nav.scrolled {
+  @apply shadow-2xl;
+  border-bottom: 0px;
+  background-color: #000000;
+  width: 100%;
+  transition: 1s;
+  position: sticky;
+  z-index: 999;
+}
+
+.carsona-nav .carsona-nav-links a {
+  font-size: 12px;
+}
+
+.banner-section {
+  background-image: linear-gradient(#ffffff, #ffffff);
+  background-size: auto, auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  background-attachment: scroll;
+  height: 95vh;
+}
+
+#contactUs .banner-section {
+  height: 90vh;
+}
+
+.banner {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+  background-color: #211d98;
+}
+
+.banner video {
+  /* position: absolute;
+    top: 0;
+    z-index: 0; */
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#about .about-carsona-description p{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#homepage .funnel-link-container {
+  position: absolute;
+  z-index: 9;
+  left: 0%;
+  right: 0%;
+  top: 42%;
+  text-align: center;
+}
+
+#homepage .home-carsona-description p{
+  font-size: 17px;
+}
+
+#homepage .funnel-link-container h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 42px;
+}
+
+#homepage .funnel-link-container a {
+  border: 1px solid #fff;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+  background-color: rgb(255 255 255 / .3);
+}
+
+#homepage .funnel-link-container a:hover {
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.31);
+  transition: 0.5s;
+}
+
+#homepage .features-container img {
+  width: 150px;
+  height: 116px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+#homepage .features-container p.title {
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#homepage a.find-your-carsona {
+  color: #6a0ca4;
+  font-family: 'Montserrat';
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+#homepage .carousel-section {
+  background-color: rgba(71, 18, 162, 0.31);
+}
+
+#homepage .carousel-section .carousel-heading {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+#homepage .carousel-section .carousel-slider {
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+  --animationspeed: 30s;
+  --animationdelay: calc(var(--animationspeed) / 2);
+
+  flex-shrink: 0;
+  animation-name: slidelogo;
+  animation-duration: var(--animationspeed);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.testaments-section .testament-container {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding-bottom: 30px;
+  height: 100%;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgba(206, 210, 219, 0.47);
+  border-right-color: rgba(206, 210, 219, 0.47);
+  border-bottom-color: rgba(206, 210, 219, 0.47);
+  border-left-color: rgba(206, 210, 219, 0.47);
+}
+
+.testaments-section .testament-container img {
+  width: 96px;
+  border-radius: 100px;
+  margin-bottom: 26px;
+}
+
+.testaments-section .testament-container p.testament {
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 600;
+  max-width: 250px;
+}
+
+/* ABOUT PAGE */
+#about .social-section {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+}
+
+
+/* CONTACT PAGE */
+#contactUs .contact-form-section {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .carsona-nav {
+    background-color: #000000;
+  }
+
+  #homepage .funnel-link-container {
+    top: 40%;
+    z-index: 0;
+    width: 100%;
+    left: 37%;
+  }
+
+  #homepage .funnel-link-container h2{
+    font-size: 20px;
+  }
+
+  #homepage .banner-section {
+    /* height: 100%; */
+    height: 90vh;
+    display: block;
+  }
+
+  #homepage .banner-section .banner, #contactUs .banner-section .banner {
+    /* position: relative; */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -1150px;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 0;
+    background-color: none;
+    background: none;
+  }
+
+  #homepage .banner-section .banner video, #contactUs .banner-section .banner video {
+    top: 0;
+    left: 480px;
+    position: relative;
+    transform: inherit;
+  }
+
+  #about .banner-section {
+    height: auto;
+    display: block;
+  }
+
+  #about .banner-section .banner{
+    position: relative;
+  }
+
+  #about .banner-section .banner video{
+    position: relative;
+    top: 100px;
+  }
+
+  #about .social-section {
+    position: absolute;
+    top: 88px;
+    color: #ffffff;
+    left: 0;
+  }
+
+  /* CONTACT PAGE */
+  #contactUs .contact-form-section {
+    position: absolute;
+    top: 25%;
+    left: 76%;
+    color: #fff;
+    width: 350px;
+  }
+
+
+  
+  
+
+}

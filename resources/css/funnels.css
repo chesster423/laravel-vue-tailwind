@@ -1,0 +1,164 @@
+/* Custom */
+.funnel-progress-bar {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.funnel-header-1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.funnel-header-2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.funnel-header-3 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.funnel-label {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.funnel-label-2 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+.funnel-label-3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.funnel-button {
+  width: 200px;
+  height: 35px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.funnel-button-2 {
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+
+.funnel-button-3 {
+  width: 160px;
+  height: 25px;
+  background: #000000;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
+
+.funnel-button-3.bg-white {
+  color: #000000;
+}
+
+.funnel-button:hover,
+.funnel-button-2:hover {
+  /* border: 2px solid rgba(0, 41, 255, 1);
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3); */
+}
+
+.funnel-button-active {
+  border: 2px solid rgba(0, 41, 255, 1) !important;
+}
+
+.funnel-button-rounded {
+  background-color: rgba(68, 34, 172, 0.7);
+}
+
+.funnel-bg-light-gray {
+  background: #f6f6f6;
+}
+
+.funnel-bg{
+  background-color: rgba(0, 41, 255, 1);
+}
+
+.funnel-panel {
+  background: #f6f6f6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.vue-slider-process {
+  background-color: rgba(0, 41, 255, 1) !important;
+}
+
+.vue-slider-rail {
+  background-color: #FFFFFF !important;
+  border: 1px solid #ccc !important;
+}
+
+.border-active {
+  /* border: 1px solid #4422acb3; */
+  filter: brightness(85%);
+}
+
+.funnel-activities-img {
+  opacity: 0.5;
+}
+
+img.funnel-activities-img:hover {
+  /* opacity: 1;
+  transition: 1s; */
+}
+
+.funnel-bg-blue {
+  background-color: #0085ff;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .funnel-container {
+    padding-bottom: 100px !important;
+  }
+  
+.next-steps-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+}
+
